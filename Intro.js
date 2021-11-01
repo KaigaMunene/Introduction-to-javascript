@@ -76,3 +76,36 @@ switch(age){
     default:
         console.log();
 }
+
+value1 = 0
+value2 = 0
+
+function simple_calculator (value1, operator, value2) {
+    switch(operator) {
+        case "addition":
+            console.log(value1 + value2);
+            break;
+    
+        case "subtraction":
+            console.log(value1 - value2);
+            break;
+
+        case "mutiplication":
+            console.log(value1 * value2);
+            break;
+
+        case "division":
+            console.log(value1 / value2);
+            break;
+
+        case "modulous":
+            console.log(value1 % value2);
+            break;
+
+        default:
+            console.log()
+
+    }
+}
+console.log(simple_calculator(10, "subtraction", 4));
+
